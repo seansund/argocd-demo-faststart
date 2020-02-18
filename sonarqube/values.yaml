@@ -1,11 +1,7 @@
 global: {}
 
 sonarqube:
-  database:
-    type: "mysql"
-
   postgresql:
-    enabled: false
-  mysql:
-    enabled: true
+    persistence:
+      storageClass: ibmc-file-gold
 
