@@ -1,0 +1,10 @@
+global: {}
+
+sms-demo-faststart:
+  replicaCount: 1
+  
+  ingress:
+    enabled: false
+  route:
+    enabled: true
+
