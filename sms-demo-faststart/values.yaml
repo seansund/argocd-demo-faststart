@@ -1,7 +1,7 @@
 global: {}
 
-sms-demo-01:
-  replicaCount: 3
+sms-demo-faststart:
+  replicaCount: 1
   
   ingress:
     enabled: false
